@@ -29,7 +29,6 @@ public class FormController extends HttpServlet {
 		// forward()에 WAS가 넘겨준 request와 response를 넘겨준다.
 		rd.forward(request, response);
 		
-		
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
